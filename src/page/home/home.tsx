@@ -39,7 +39,7 @@ function Home_page() {
       })
       nmConfig.notice.displayed = true
     }
-
+/*
     if (!checkedUpdate) {
       checkUpdate(async (info,localVersions) => {
         modal.confirm!({
@@ -56,7 +56,7 @@ function Home_page() {
       })
       checkedUpdate = true;
     }
-
+*/
   }, [])
 
   return (

@@ -4,12 +4,12 @@ import { mergeObjects, randomString } from "../utils/utils"
 
 const roConfig = {
     url: {
-        website: 'https://www.netmount.cn',
-        docs: 'https://api.hotpe.top/API/NetMount/GoLink?id=docs&path=',
+        website: 'https://127.0.0.2',
+        docs: 'https://127.0.0.2/API/NetMount/GoLink?id=docs&path=',
         rclone: 'https://github.com/rclone/rclone',
         alist: 'https://github.com/alist-org/alist',
-        to: (id: string, path: string = '') => { return 'https://api.hotpe.top/API/NetMount/GoLink?id=' + id + '&path=' + path },
-        vhbBlog: 'https://blog.hotpe.top'
+        to: (id: string, path: string = '') => { return 'https://127.0.0.2/API/NetMount/GoLink?id=' + id + '&path=' + path },
+        vhbBlog: 'https://127.0.0.2'
 
     },
     env: {
@@ -60,7 +60,7 @@ let nmConfig: NMConfig = {
     },
     task: [],
     api: {
-        url: 'https://api.hotpe.top/API/NetMount',
+        url: 'https://127.0.0.2/API/NetMount',
     },
     settings: {
         themeMode: roConfig.options.setting.themeMode.select[roConfig.options.setting.themeMode.defIndex],

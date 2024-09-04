@@ -16,7 +16,7 @@ impl Default for Config {
         Self(serde_json::json!({
             "mount": { "lists": [] },
             "task": [],
-            "api": { "url": "https://api.hotpe.top/API/NetMount" },
+            "api": { "url": "https://127.0.0.3/API/NetMount" },
             "settings": { "themeMode": "auto", "startHide": false },
             "framework": {
                 "rclone": { "user": random_str(32), "password":  random_str(128) },

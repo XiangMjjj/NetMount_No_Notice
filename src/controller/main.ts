@@ -63,7 +63,7 @@ async function init(setStartStr: Function) {
     await startAlist()
 
     setStartStr(t('get_notice'))
-    await checkNotice()
+    // await checkNotice()
 
     startUpdateCont()
 
